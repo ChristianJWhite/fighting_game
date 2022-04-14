@@ -1,0 +1,25 @@
+<head>
+    <!-- fixes the padding issue -->
+    <style>
+        * {
+           box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+    <!-- div for the device screen -->
+    <div style="position: relative; display: inline-block">
+        <!-- div for the main screen area that is displaying the game -->
+        <div style="position:absolute; display: flex; width:100%; align-items: center; padding: 20px;">
+            <!-- player health -->
+            <div id="playerHealth" style="background-color:yellow; height:30px; width: 100%;"></div>
+            <!-- timer -->
+            <div style="background-color:red; height:100px; width: 100px; flex-shrink: 0;"></div>
+            <!-- enemy health -->
+            <div id="enemyHealth" style="background-color:yellow; height:30px; width: 100%;"></div>
+        </div>
+        <canvas></canvas>
+    </div>
+
+    <script src="index.js"></script>
+</body>
