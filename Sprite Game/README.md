@@ -1,2 +1,2 @@
 ﻿# fighting_game
-fighting game uses JavaScript
+simple 2D 2 player fighting game made with JavaScript
